@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="/public/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <!-- <script>
+    (function ($) {
+      "use strict";
+
+      // Sticky Navbar
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 40) {
+          $('.navbar').addClass('sticky-top');
+        } else {
+          $('.navbar').removeClass('sticky-top');
+        }
+      });
+
+      // Dropdown on mouse hover
+      $(document).ready(function () {
+        function toggleNavbarMethod() {
+          if ($(window).width() > 992) {
+            $('.navbar .dropdown').on('mouseover', function () {
+              $('.dropdown-toggle', this).trigger('click');
+            }).on('mouseout', function () {
+              $('.dropdown-toggle', this).trigger('click').blur();
+            });
+          } else {
+            $('.navbar .dropdown').off('mouseover').off('mouseout');
+          }
+        }
+        toggleNavbarMethod();
+        $(window).resize(toggleNavbarMethod);
+      });
+
+
+      // Back to top button
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.back-to-top').fadeIn('slow');
+        } else {
+          $('.back-to-top').fadeOut('slow');
+        }
+      });
+      $('.back-to-top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
+        return false;
+      });
+
+
+      // Facts counter
+      $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 2000
+      });
+
+
+      // Product carousel
+      $(".product-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 45,
+        dots: false,
+        loop: true,
+        nav: true,
+        navText: [
+          '<i class="bi bi-arrow-left"></i>',
+          '<i class="bi bi-arrow-right"></i>'
+        ],
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          992: {
+            items: 3
+          },
+          1200: {
+            items: 4
+          }
+        }
+      });
+
+
+      // Testimonials carousel
+      $(".testimonial-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        items: 1,
+        dots: false,
+        loop: true,
+        nav: true,
+        navText: [
+          '<i class="bi bi-arrow-left"></i>',
+          '<i class="bi bi-arrow-right"></i>'
+        ],
+      });
+
+    })(jQuery);
+
+  </script> -->
+  <script src="/js/useraccount.js"></script>
+</body>
+
+</html>

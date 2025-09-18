@@ -1,0 +1,70 @@
+{
+  "registration": [
+    {
+      "id": "3a17",
+      "name": "Naveen Kumar",
+      "email": "ravi@gamil.com",
+      "password": "1234",
+      "location": "Alwar",
+      "createdAt": "2025-09-18T08:30:00.257Z"
+    },
+    {
+      "id": "4f53",
+      "name": "Ravindra Kumar",
+      "email": "kymar7850817933@gmail.com",
+      "password": "123456",
+      "location": "Bhiwadi",
+      "createdAt": "2025-09-18T08:48:49.155Z"
+    }
+  ],
+  "maincategory": [
+    {
+      "id": "f904",
+      "name": "organic",
+      "duration": "8 months",
+      "userId": "3a17"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "5464",
+      "name": "rice",
+      "things": "seeds",
+      "insurance": "Yes",
+      "mainCategoryId": "f904",
+      "userId": "3a17"
+    }
+  ],
+  "farmingcost": [
+    {
+      "id": "9167",
+      "subcategoryId": "5464",
+      "landPreparation": "7372",
+      "seedCost": "12328",
+      "fertilizers": "3323",
+      "irrigation": "2342",
+      "labor": "23421",
+      "machinery": "23422",
+      "miscellaneous": "32",
+      "userId": "3a17",
+      "totalCost": 72240
+    }
+  ],
+  "profitloss": [
+    {
+      "id": "4d6b",
+      "userId": "3a17",
+      "subcategoryId": "5464",
+      "totalCost": 72240,
+      "sellingPrice": 500000,
+      "profitOrLoss": 427760
+    }
+  ],
+  "admin": [
+    {
+      "email": "farmeradmin@gmail.com",
+      "password": "admin@7850",
+      "id": "ae59"
+    }
+  ]
+}
